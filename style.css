@@ -1,4 +1,4 @@
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,37 +7,32 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-}
-
-nav ul {
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    background: #333;
 }
 
-nav ul li a {
+/* Sidebar */
+.sidebar {
+    background-color: #333;
     color: #fff;
-    text-decoration: none;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.hero {
-    background: url('hero-image.jpg') center/cover;
+.sidebar .profile {
     text-align: center;
-    padding: 2rem;
 }
 
-.contact-section, .about-section, .projects-section {
-    padding: 2rem;
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
-button {
-    padding: 0.5rem 1rem;
-    border: none;
-    background: #007bff;
-    color: white;
-    cursor: pointer;
-}
+.sidebar h1 {
+    font-size: 24px;
+    margin
