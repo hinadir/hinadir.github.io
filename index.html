@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nadir Irshad - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, My name is Nadir Irshad and this is my Portfolio</h1>
-    <a href="about.html">About Us</a>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <header class="hero">
+        <h1>Hi, I'm Nadir Irshad</h1>
+        <p>A Web Developer with 12+ years of experience in Pharmaceutical Automation and Computer System Validation.</p>
+        <a href="projects.html" class="cta">View My Work</a>
+    </header>
+
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
